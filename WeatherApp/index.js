@@ -44,8 +44,8 @@ async function checkWeather(city){
     }
 
     document.querySelector(".weather").style.display = "block";
-    document.querySelector(".weather").style.display = "block";
-    document.querySelector(".weather").style.display = "block";
+    document.querySelector(".humidity").style.display = "block";
+    document.querySelector(".wind").style.display = "block";
     document.querySelector(".error").style.display = "none";
 
     }
